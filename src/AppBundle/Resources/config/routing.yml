@@ -1,0 +1,25 @@
+#acme_store_homepage:
+#    path:     cl/
+#    defaults: { _controller: AcmeStoreBundle:Default:create }
+#acme_store_check:
+#    path:     ds/
+#    defaults: { _controller: AcmeStoreBundle:Default:more }
+#acme_store_fine_by_name:
+#    path:     findbyname/
+#    defaults: { _controller: AcmeStoreBundle:Default:byname }
+#acme_store_fine_register:
+#    path:     register/
+#    defaults: { _controller: AcmeStoreBundle:Default:register }
+#acme_store_fine_create:
+#    path:     create/
+#    defaults: { _controller: AcmeStoreBundle:Default:creates }
+#acme_store_fine_new:
+#    path:     new/
+#    defaults: { _controller: AcmeStoreBundle:Default:new }
+#acme_store_fine_thank:
+#    path:     sucess/
+#    defaults: { _controller: AcmeStoreBundle:Default:sucess }
+
+acme_store_fine_rgt:
+    path:     rgt/
+    defaults: { _controller: AppBundle:Registration:register }

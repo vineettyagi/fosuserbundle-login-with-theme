@@ -1,0 +1,4 @@
+AppBundle\Document\User:
+    fields:
+        id:
+            id:  true
